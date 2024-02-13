@@ -2,13 +2,11 @@ echo [$(date)]: "START"
 
 echo [$(date)]: "creating env with python 3.8 version"
 
-conda create --prefix ./ml_env python=3.8 -y
+python3 -m venv env
 
-echo [$(date)]: "creating env with python 3.8 version"
+echo [$(date)]: "activating the environment"
 
-# Activate your Conda environment
-conda activate /home/amankd777/mlops_firste/mlops_first_ever/ml_env
-# source activate ./env
+source ./env/bin/activate
 
 echo [$(date)]: "installing the dev requirements"
 
