@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: DiamondPricePrediction
+Version: 0.0.1
+Author: Amankd777
+Author-email: 20bds003@iiitdwd.ac.in
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
