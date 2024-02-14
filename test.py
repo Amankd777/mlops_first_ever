@@ -1,3 +1,3 @@
 from src.logger.logging import logging
 
-logging.info("testing")
+logging.info("Gettin' Mad eh")
