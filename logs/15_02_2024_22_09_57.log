@@ -1,0 +1,53 @@
+[2024-02-15 22:09:58,662] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.66:8000
+[2024-02-15 22:09:58,663] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-02-15 22:10:02,851] 66 root - INFO - Dataframe Gathered
+[2024-02-15 22:10:03,016] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:10:03] "POST /predict HTTP/1.1" 200 -
+[2024-02-15 22:10:28,947] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:10:28] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 22:11:19,288] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/app.py", line 17, in predict_datapoint
+    depth=float(request.form.get("depth")),
+ValueError: could not convert string to float: ''
+[2024-02-15 22:11:19,291] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:11:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-02-15 22:11:28,565] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/app.py", line 18, in predict_datapoint
+    table=float(request.form.get("table")),
+ValueError: could not convert string to float: ''
+[2024-02-15 22:11:28,567] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:11:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2024-02-15 22:11:54,697] 66 root - INFO - Dataframe Gathered
+[2024-02-15 22:11:54,711] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:11:54] "POST /predict HTTP/1.1" 200 -
+[2024-02-15 22:11:57,364] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:11:57] "GET /predict HTTP/1.1" 200 -
+[2024-02-15 22:12:02,848] 1414 app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/amankd777/mlops_firste/mlops_first_ever/env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/amankd777/mlops_firste/mlops_first_ever/app.py", line 21, in predict_datapoint
+    z=float(request.form.get("z")),
+ValueError: could not convert string to float: ''
+[2024-02-15 22:12:02,850] 96 werkzeug - INFO - 127.0.0.1 - - [15/Feb/2024 22:12:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
