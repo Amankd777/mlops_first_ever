@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amankd777/mlops_firste/mlops_first_ever/mlruns/0/88f75d95f2a844c3a9811d87dd27caec/artifacts
+end_time: 1708154365523
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 88f75d95f2a844c3a9811d87dd27caec
+run_name: silent-flea-389
+run_uuid: 88f75d95f2a844c3a9811d87dd27caec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708154365509
+status: 4
+tags: []
+user_id: amankd777

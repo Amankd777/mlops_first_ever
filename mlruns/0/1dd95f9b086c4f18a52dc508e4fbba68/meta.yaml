@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amankd777/mlops_firste/mlops_first_ever/mlruns/0/1dd95f9b086c4f18a52dc508e4fbba68/artifacts
+end_time: 1708155029408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1dd95f9b086c4f18a52dc508e4fbba68
+run_name: unleashed-crab-65
+run_uuid: 1dd95f9b086c4f18a52dc508e4fbba68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708155019773
+status: 3
+tags: []
+user_id: amankd777

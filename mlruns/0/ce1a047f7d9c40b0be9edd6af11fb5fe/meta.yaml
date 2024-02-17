@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amankd777/mlops_firste/mlops_first_ever/mlruns/0/ce1a047f7d9c40b0be9edd6af11fb5fe/artifacts
+end_time: 1708155275439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce1a047f7d9c40b0be9edd6af11fb5fe
+run_name: gaudy-crab-261
+run_uuid: ce1a047f7d9c40b0be9edd6af11fb5fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708155268515
+status: 3
+tags: []
+user_id: amankd777
